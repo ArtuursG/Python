@@ -4,6 +4,44 @@ This repository includes a collection of small yet educational Python projects a
 
 ---
 
+# 🌐 Backend / API Projects
+
+### Weather API
+https://github.com/ArtuursG/Python/tree/main/weather-api
+
+A simple REST API built with **FastAPI** that retrieves current weather data for a given city.
+
+The API works by:
+
+1. Converting a city name into geographic coordinates using the **Open-Meteo Geocoding API**
+2. Fetching real-time weather information using the **Open-Meteo Forecast API**
+
+Features:
+
+- FastAPI backend
+- external API integration
+- error handling
+- logging
+- Swagger API documentation (`/docs`)
+- clean project structure
+
+Example endpoint:
+
+GET /weather/Riga
+
+Example response:
+
+{
+  "city": "Riga",
+  "country": "Latvia",
+  "latitude": 56.95,
+  "longitude": 24.10,
+  "temperature": 8.0,
+  "wind_speed": 12.6
+}
+
+---
+
 ## 🎮 Games
 
 ### [`guess_the_number.py`](https://github.com/ArtuursG/Python/blob/main/Number_guess/guess_the_number.py)
