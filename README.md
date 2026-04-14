@@ -7,7 +7,7 @@ This repository includes a collection of small yet educational Python projects a
 # 🌐 Backend / API Projects
 
 ### Weather API
-https://github.com/ArtuursG/Python/tree/main/weather-api
+### [`weather-api`](https://github.com/ArtuursG/Python/tree/main/weather-api)
 
 A simple REST API built with **FastAPI** that retrieves current weather data for a given city.
 
